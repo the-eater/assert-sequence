@@ -1,0 +1,22 @@
+{
+    "name": "eater/assert-sequence",
+    "description": "bleh",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^7.2",
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eater",
+            "email": "=@eater.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eater\\AssertSequence\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
